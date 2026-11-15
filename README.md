@@ -1,115 +1,35 @@
 <p align="center">
-  <img src="assets/branding/battleheart-icon-v2.png" width="160" height="160" alt="BattleHeart project icon">
+  <img src="assets/branding/chaoscontrol-2-icon.png" width="128" height="128" alt="ChaosControl 2 Chaos Emeralds icon">
 </p>
 
-<h1 align="center">BattleHeart</h1>
+<h1 align="center">ChaosControl 2: Battle</h1>
+
+<p align="center">An unofficial Sonic Adventure 2: Battle homebrew port for PlayStation 5.</p>
 
 <p align="center">
-  <strong>Sonic Adventure 2: Battle on PlayStation 5</strong><br>
-  An unofficial PS5 homebrew port project using SA2B research as a reference, maintained by <a href="https://github.com/BaZZtian">BaZZtian</a>.
+  <a href="https://github.com/BaZZtian/PS5-BattleHeart/releases">Releases</a> · <a href="#before-you-install">Before you install</a> · <a href="#support">Support</a>
 </p>
 
-<p align="center">
-  <a href="#status-and-availability"><img src="https://img.shields.io/badge/status-in%20development-orange" alt="Status: in development"></a>
-  <img src="https://img.shields.io/badge/platform-PS5%20homebrew-003791" alt="Platform: PS5 homebrew">
-  <a href="#requirements"><img src="https://img.shields.io/badge/game%20data-Own%20GameCube%20ISO-555555" alt="Game data: Own GameCube ISO"></a>
-</p>
+![Sonic and Shadow racing along a coastal city track](assets/branding/chaoscontrol-2-key-art.jpg)
 
-<p align="center">
-  <a href="#status-and-availability">Status</a> &middot;
-  <a href="#installation">Installation</a> &middot;
-  <a href="#compatibility">Compatibility</a> &middot;
-  <a href="#support">Support</a> &middot;
-  <a href="#credits-and-licenses">Credits &amp; licenses</a>
-</p>
+## Get the game
 
-## About
+The public PS5 download is not available yet. When it is ready, the [Releases page](https://github.com/BaZZtian/PS5-BattleHeart/releases) will have the package and installation instructions. The older BattleHeart download contains source files only.
 
-BattleHeart is a dedicated native PlayStation 5 homebrew port project for
-**Sonic Adventure 2: Battle (GameCube)**.
+## Before you install
 
-The intended experience is a standalone PS5 application using your own game
-image. The target firmware is **12.40**.
-
-## Status and availability
-
-> [!WARNING]
-> **No playable PS5 build is available.** The published source snapshot is not an installable game.
-
-**In development. No playable PS5 build or installable application is available
-at this time.**
-
-The existing `v0.0.1` release is an early source snapshot, not a game download.
-
-The current source contains the native read-only media adapter, GameCube
-filesystem validation and executable-boundary checks. This is groundwork for
-the port. Successful component builds do not establish console gameplay.
-
-The [Prospero Store reservation](https://github.com/darkxex/ps5-homebrew-catalog/blob/main/apps/PPSA99732.json)
-uses title ID **PPSA99732**. It is a **Coming soon** placeholder with no playable
-download. There is no game installation procedure to follow yet.
-
-## Requirements
-
-- Your own legally obtained **Sonic Adventure 2: Battle GameCube disc image**.
-- A homebrew-capable **PlayStation 5**. The project's target firmware is **12.40**.
-
-These are the intended game requirements; a console-ready application is still
-in development.
-
-## Your game data
-
-You must provide your own legally obtained GameCube disc image. The application
-is intended to read your game data locally. No ISO, original executable,
-textures, soundtrack or saves are supplied or downloaded by this project.
-
-## Installation
-
-There is no playable application to install yet. Installation instructions will accompany a tested application release on the [Releases page](https://github.com/BaZZtian/PS5-BattleHeart/releases). The existing `v0.0.1` source snapshot and Store reservation are not playable downloads.
-
-## Compatibility
-
-| GameCube edition | Disc ID | PS5 gameplay |
-| --- | --- | --- |
-| Europe / PAL | `GSNP8P` | Not verified |
-| North America / NTSC-U | `GSNE8P` | Not verified |
-
-Both regions require real gameplay verification before a downloadable game
-release. Disc identification alone does not establish gameplay compatibility
-or support for every revision.
+- You’ll need a PS5 that can run homebrew and your own copy of the game data.
+- Check the release notes for supported firmware, game editions and add-ons before installing.
+- Game files and save data are not included in the download.
 
 ## Support
 
-Use [GitHub Issues](https://github.com/BaZZtian/PS5-BattleHeart/issues) for project
-questions and compatibility feedback. Describe the problem clearly and remove
-personal information before sharing any report.
+Use [GitHub Issues](https://github.com/BaZZtian/PS5-BattleHeart/issues) to report a problem. Include the ChaosControl version, your PS5 firmware, your game edition and the steps that reproduce the issue.
 
-Do not upload game images, extracted game files, music, saves, keys, credentials
-or proprietary SDK material.
+## Credits
 
-## Credits and licenses
+ChaosControl 2: Battle is maintained by [BaZZtian](https://github.com/BaZZtian).
 
-| Author / project | Contribution |
-| --- | --- |
-| [BaZZtian](https://github.com/BaZZtian) | BattleHeart maintenance and project-specific PS5 integration work. |
-| [roeming and the SA2B contributors](https://github.com/roeming/SA2B) | GameCube SA2B decompilation research reference. |
-| [nlopez99 and the SA2B reconstruction contributors](https://github.com/nlopez99/SA2B) | Additional GameCube reconstruction research references. |
-| [ps5-payload-dev contributors](https://github.com/ps5-payload-dev/sdk) | Open PS5 homebrew SDK used for the diagnostic cross-build. |
-| [LLVM contributors](https://github.com/llvm/llvm-project) | Clang/LLVM compiler toolchain. |
+Thanks to the [roeming SA2B](https://github.com/roeming/SA2B), [nlopez99 SA2B](https://github.com/nlopez99/SA2B), [PS5 homebrew SDK](https://github.com/ps5-payload-dev/sdk), and [LLVM](https://github.com/llvm/llvm-project) contributors.
 
-The SA2B projects above are research references, not an integrated game engine
-in this snapshot. Their authors retain credit for their own work. BattleHeart
-does not claim authorship or ownership of upstream projects or the original game.
-
-### Licensing
-
-The existing project-authored media tooling is distributed under the
-[MIT license](LICENSE). Retain its copyright and license notice when reusing it.
-Third-party components retain their own licenses and authorship; referencing an
-upstream project does not mean its engine is included here.
-
-Sonic Adventure 2: Battle and its characters are associated with SEGA and their
-respective rightsholders. The project license does not grant rights to the
-original game, reconstructed game code, soundtrack or character artwork.
-BattleHeart is an unofficial homebrew project and is not affiliated with or
-endorsed by SEGA or Sony.
+Sonic Adventure 2: Battle and its characters belong to SEGA and their respective rightsholders. This is an unofficial fan project. See [LICENSE](LICENSE) for the license covering the repository’s code.
