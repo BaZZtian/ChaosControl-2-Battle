@@ -4,7 +4,7 @@
 
 <h1 align="center">ChaosControl 2: Battle</h1>
 
-<p align="center">An unofficial Sonic Adventure 2: Battle homebrew port for PlayStation 5.</p>
+<p align="center">An unofficial PlayStation 5 homebrew port of the Xbox 360 edition of Sonic Adventure 2 with Battle add-on support.</p>
 
 <p align="center">
   <a href="https://github.com/BaZZtian/PS5-BattleHeart/releases">Releases</a> · <a href="#before-you-install">Before you install</a> · <a href="#support">Support</a>
@@ -18,8 +18,8 @@ The public PS5 download is not available yet. When it is ready, the [Releases pa
 
 ## Before you install
 
-- You’ll need a PS5 that can run homebrew and your own copy of the game data.
-- Check the release notes for supported firmware, game editions and add-ons before installing.
+- You’ll need a PS5 that can run homebrew and your own copy of **Sonic Adventure 2 for Xbox 360** (title ID `58411202`).
+- Use your own **Battle** add-on data for Battle content. Check the release notes for supported firmware and game revisions.
 - Game files and save data are not included in the download.
 
 ## Support
@@ -30,6 +30,6 @@ Use [GitHub Issues](https://github.com/BaZZtian/PS5-BattleHeart/issues) to repor
 
 ChaosControl 2: Battle is maintained by [BaZZtian](https://github.com/BaZZtian).
 
-Thanks to the [roeming SA2B](https://github.com/roeming/SA2B), [nlopez99 SA2B](https://github.com/nlopez99/SA2B), [PS5 homebrew SDK](https://github.com/ps5-payload-dev/sdk), and [LLVM](https://github.com/llvm/llvm-project) contributors.
+Thanks to the [ReXGlue SDK](https://github.com/rexglue/rexglue-sdk), [PS5 homebrew SDK](https://github.com/ps5-payload-dev/sdk), and [LLVM](https://github.com/llvm/llvm-project) contributors. Thanks also to [roeming](https://github.com/roeming/SA2B) and [nlopez99](https://github.com/nlopez99/SA2B) for earlier research references.
 
 Sonic Adventure 2: Battle and its characters belong to SEGA and their respective rightsholders. This is an unofficial fan project. See [LICENSE](LICENSE) for the license covering the repository’s code.
