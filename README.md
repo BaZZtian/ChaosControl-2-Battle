@@ -34,4 +34,4 @@ The Xbox 360 recompilation base comes from [sa2-nx](https://github.com/ChanseyIs
 
 Thanks to the [ReXGlue SDK](https://github.com/rexglue/rexglue-sdk), [PS5 homebrew SDK](https://github.com/ps5-payload-dev/sdk), and [LLVM](https://github.com/llvm/llvm-project) contributors. Thanks also to [roeming](https://github.com/roeming/SA2B) and [nlopez99](https://github.com/nlopez99/SA2B) for earlier research references.
 
-Sonic Adventure 2: Battle and its characters belong to SEGA and their respective rightsholders. This is an unofficial fan project. See [LICENSE](LICENSE) for the license covering the repository’s code.
+Sonic Adventure 2: Battle and its characters belong to SEGA and their respective rightsholders. This is an unofficial fan project. See [Credits and third-party licenses](THIRD_PARTY_NOTICES.md) for the PS5 build’s upstream code, the ChaosControl changes, and the applicable licenses.
