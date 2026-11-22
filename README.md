@@ -4,17 +4,17 @@
 
 <h1 align="center">ChaosControl 2: Battle</h1>
 
-<p align="center">An unofficial PlayStation 5 homebrew port of the Xbox 360 edition of Sonic Adventure 2 with Battle add-on support.</p>
+<p align="center">An unofficial PlayStation 5 homebrew port of the Xbox 360 edition of Sonic Adventure 2.</p>
 
 <p align="center">
-  <a href="https://github.com/BaZZtian/ChaosControl-2-Battle/releases">Releases</a> · <a href="#before-you-install">Before you install</a> · <a href="#support">Support</a>
+  <a href="https://github.com/BaZZtian/ChaosControl-2-Battle/releases">Download</a> · <a href="#before-you-install">Requirements</a> · <a href="#support">Help</a>
 </p>
 
 ![Sonic and Shadow racing along a coastal city track](assets/branding/chaoscontrol-2-key-art.jpg)
 
 ## Get the game
 
-The public PS5 download is not available yet. When it is ready, the [Releases page](https://github.com/BaZZtian/ChaosControl-2-Battle/releases) will have the package and installation instructions.
+**No public PS5 build is available yet.** The [GitHub Releases page](https://github.com/BaZZtian/ChaosControl-2-Battle/releases) will carry the download and installation instructions when a build is ready. The [older BattleHeart store listing](https://prosperostore.net/app/PPSA99732/) is not a ChaosControl 2: Battle download.
 
 ## Before you install
 
