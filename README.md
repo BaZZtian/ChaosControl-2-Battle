@@ -12,9 +12,11 @@
 
 ![Sonic and Shadow racing along a coastal city track](assets/branding/chaoscontrol-2-key-art.jpg)
 
-## Get the game
+## Availability
 
-The public PS5 download is not available yet. When it is ready, the [Releases page](https://github.com/BaZZtian/ChaosControl-2-Battle/releases) will have the package and installation instructions.
+No public download is available yet. The port targets PS5 homebrew and requires your own Xbox 360 copy of Sonic Adventure 2. Battle content requires your own add-on data.
+
+[Follow releases](https://github.com/BaZZtian/ChaosControl-2-Battle/releases)
 
 ## Before you install
 
